@@ -1,0 +1,5 @@
+a = 70
+b = 89
+c = 45
+largest=max(a,b,c)
+print("Largest:", largest)
