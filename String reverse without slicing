@@ -1,0 +1,7 @@
+#reverse a str without slicing
+str=input('enter a string: ')
+reversed=''
+for i in range(len(str)-1,-1,-1):
+    reversed += str[i]
+ 
+print(reversed)
