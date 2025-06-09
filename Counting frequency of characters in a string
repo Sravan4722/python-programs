@@ -1,0 +1,18 @@
+def count_char_frequency(s):
+    freq = {}  # empty dictionary to store character frequencies
+
+    for char in s:
+        if char in freq:
+            freq[char] += 1  # increment count if character already exists
+        else:
+            freq[char] = 1   # first occurrence of character
+
+    return freq
+
+# Example usage
+string = input("Enter a string: ")
+frequencies = count_char_frequency(string)
+
+# Print results
+for char, count in frequencies.items():
+    print(f"{char}: {count}")
