@@ -1,4 +1,4 @@
-ef remove_duplicates(lst):
+def remove_duplicates(lst):
     unique = []
     for item in lst:
         if item not in unique:
