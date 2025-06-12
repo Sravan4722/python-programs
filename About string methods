@@ -1,0 +1,9 @@
+text = 'Data Analyst Role'
+#1. convert to lower case
+print(text.lower())
+#2.slice the string out the word analyst
+print(text[4:12])
+#3.find()
+print("index of 'R' : ", text.find('R'))
+#4.replace()
+print('Replace "Role" with "Job":', text.replace('Role','Job'))
